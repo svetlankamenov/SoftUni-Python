@@ -37,9 +37,3 @@ class Truck(Vehicle):
 
     def refuel(self, fuel):
         self.fuel_quantity += fuel * 0.95
-
-car = Car(20, 5)
-car.drive(3)
-print(car.fuel_quantity)
-car.refuel(10)
-print(car.fuel_quantity)
